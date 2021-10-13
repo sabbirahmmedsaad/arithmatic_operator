@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ===================
+    common css end
+===================*/
+
+#charc{
+    height: 100vh;
+    background: #f0f0f0;
+    /* padding: 100px 0; */
+    display: flex;
+    align-items: center;
+}
+
+#charc .charc {
+	height: 520px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+#charc .charc .item{
+    width: 270px;
+    height: 240px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: powderblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#charc .charc .item h3{
+    text-transform: uppercase;
+    color: steelblue;
+    font-size: 22px;
+}
+
+#charc .charc .item .text {
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+	margin: 10px 0;
+	text-align: center;
+	padding-top: 45px;
+}
+
+#charc .charc .item a {
+	display: inline-block;
+	background: orange;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+}
